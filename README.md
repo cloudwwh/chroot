@@ -24,3 +24,9 @@ ChrootDirectory /jail/%u
 Restart SSH::
 
 systemctl restart sshd
+
+
+Script Usage:
+
+chmod u+x cloudwwh_chroot.sh
+./cloudwwh_chroot.sh USERNAME
